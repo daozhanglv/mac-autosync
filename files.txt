@@ -1,0 +1,15 @@
+# Files to back up and restore, one per line, relative to your home folder (~).
+# Lines starting with # are ignored. Add a line to back up one more file;
+# sync.sh and install.sh --restore both read this list.
+#
+# Only single files are supported, not folders.
+# Never list private keys or token files. Common ones are refused anyway.
+.zshrc
+.gitconfig
+
+# Examples: remove the leading "# " to enable.
+# .zprofile
+# .ssh/config
+# .config/starship.toml
+# .config/ghostty/config
+# .config/mise/config.toml
